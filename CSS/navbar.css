@@ -125,6 +125,8 @@
         margin: 10px;
         text-decoration: none;
         border: none;
+        outline: none;
+        cursor: none;
     }
     .menu {
         flex-direction: column;
@@ -148,6 +150,7 @@
     .menu a {
         color: var(--items-a-color);
         line-height: 60px;
+        outline: none;
     }
     .menu a::after{
         content: none;
@@ -156,18 +159,20 @@
     .close-menu{
         display: block;
         border: none;
-        background: transparent;
+        background-color: transparent;
         color: var(--responsive-botton);
         text-decoration: none;
-        cursor: pointer;
+        outline: none;
     }
     .close-menu{
         align-self: flex-end;
         padding: 30px 20px;
+        outline: none;
     }
     .menu_opened {
         opacity: 1;
         pointer-events: all;
+        outline: none;
     }
     .open-menu:focus:not(:focus-visible),
     .close-menu:focus:not(:focus-visible) {
