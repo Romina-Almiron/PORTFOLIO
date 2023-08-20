@@ -1,0 +1,26 @@
+[
+    {
+      "id": "project-cooffeero",
+      "title": "Ecommerce-Cafe-CoffeRo",
+      "repositoryLink": "https://github.com/Romina-Almiron/Ecommerce-Cafe-CoffeRo.git",
+      "deployLink": "https://romina-almiron.github.io/Ecommerce-Cafe-CoffeRo/",
+      "description": "Proyecto de sitio web estático en HTML y CSS para curso de Desarrollo Web de Coderhause.",
+      "skills": ["HTML", "CSS", "SASS", "BOOTSTRAP"]
+    },
+    {
+        "id": "project-sakurashop",
+        "title": "Ecommerce-SakuraShop",
+        "repositoryLink": "https://github.com/Romina-Almiron/Ecommerce-SakuraShop.git",
+        "deployLink": "https://romina-almiron.github.io/Ecommerce-SakuraShop/",
+        "description": "Ecommerce interactivo en HTML, CSS y JavaScript.",
+        "skills": ["HTML", "CSS", "JAVASCRIPT", "FETCH"]
+    },
+    {
+        "id": "project-portfolio",
+        "title": "Portfolio",
+        "repositoryLink": "https://github.com/Romina-Almiron/romi-almiron-portfolio.git",
+        "deployLink": "https://romina-almiron.github.io/romi-almiron-portfolio/",
+        "description": "Portfolio interactivo en HTML, CSS y JavaScript.",
+        "skills": ["HTML", "CSS", "JavaScript", "JSON" ]
+    }
+]

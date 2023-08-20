@@ -1,0 +1,111 @@
+ /*SECCIÓN PORTFOLIO*/
+.proyectos {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    color:var(--text-color);
+    margin-bottom: 25px;
+}
+.projects-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.project{
+    background:var(--proyect-color);
+    margin: auto 1rem;
+    max-width: 980px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    transition: .1s;
+}
+.project-icons {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-bottom: 1.4rem;
+}
+.project-icons ion-icon {
+    font-size: 1.5rem;
+    pointer-events: none;
+}
+.project-icons a {
+    color: var(--icons-a);
+    transition: .1s;
+}
+.project-icons > ion-icon {
+    margin-right: auto;
+    color: var(--icons-a);
+}
+.project-title {
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+.project-skills {
+    gap: 1rem;
+    margin-top: 1.4rem;
+    padding: 1px;
+}
+.project-skills .skill{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #1e2326;
+    box-shadow: 0 4px 10px rgb(232, 222, 222);
+    color: var(--skills-skill);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 1px;
+}
+
+/*SECCION RESPONSIV*/
+@media (min-width: 950px){
+    .projects-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+    .project-title {
+        font-size: 25px;
+    }
+    .project:hover{
+        background-color: transparent;
+        border: 3px solid black;
+    }
+    .project-icons ion-icon{
+        background: black;
+        border:1px;
+        border-radius: 5px;
+        padding: 1px;
+        font-size: 18px;
+    }
+    .project-icons a:hover{
+        color:var(--text-color);
+
+    } 
+    .section-title{
+        font-size: 45px;
+    }
+}
+@media (min-width: 768px) and (max-width: 949px) {
+    .projects-list {
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 1.5rem; 
+    }
+    .project-title {
+        font-size: 25px;
+    }
+    .section-title{
+        font-size: 42px;
+    }
+}

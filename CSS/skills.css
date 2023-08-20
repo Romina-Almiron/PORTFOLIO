@@ -1,0 +1,59 @@
+/*SECCIÓN HABILIDADES*/
+.skills {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.skills-skill {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #1e2326;
+    box-shadow: 0 4px 10px rgb(232, 222, 222);
+    color: var(--skills-skill);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+    transition: .2s;
+    transition: transform 1s ease;
+}
+.skills-list {
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.rotating {
+    animation: giro 1.2s linear; 
+}
+@keyframes giro {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+}
+.skills-skill:hover{
+    color: var(--text-color);
+}
+
+/*SECCIÓN RESPONSIVE*/
+@media (min-width: 950px){
+    .skills-skill {
+        font-size: 20px;
+        margin: 20px;
+    }
+    .skills-title{
+        font-size: 45px;
+    }
+}
+@media (min-width: 768px) and (max-width: 949px) {
+    .skills-skill {
+        font-size: 18px;
+        margin: 15px;
+    }
+    .skills-title{
+        font-size: 42px;
+    }
+}

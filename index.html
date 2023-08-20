@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-32x32.png">
+  <link rel="manifest" href="img/favicon_io/site.webmanifest">
+
+  <title>Romina Almirón — Desarrolladora Frontend</title>
+  <meta name="description" content="Apasionada por el desarrollo frontend y en constante aprendizaje. Busco oportunidades para crecer y adquirir experiencia en el campo del desarrollo web. ¡Acompáñame en mi viaje hacia convertirme en una desarrolladora frontend profesional!">
+  <meta name="keywords" content="desarrollo frontend, desarrollo web, HTML, CSS, JavaScript">
+  <meta name="author" content="Romina Almirón">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Romina Almirón — Desarrolladora Frontend">
+  <meta property="og:description" content="Apasionada por el desarrollo frontend y en constante aprendizaje. Busco oportunidades para crecer y adquirir experiencia en el campo del desarrollo web. ¡Acompáñame en mi viaje hacia convertirme en una desarrolladora frontend profesional!">
+  <meta property="og:url" content="https://github.com/Romina-Almiron">
+  <meta property="og:locale" content="es_ES" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/navbar.css">
+  <link rel="stylesheet" href="./CSS/home.css">
+  <link rel="stylesheet" href="./CSS/profile.css">
+  <link rel="stylesheet" href="./CSS/skills.css">
+  <link rel="stylesheet" href="./CSS/portfolio.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body>
+  <header class="topheader">
+    <nav class="topnav">
+      <a href="#" class="logo">
+        <img class="logo-container" height="60" width="60" src="img/Mi proyecto.png" alt="programador"/>
+        <div class="logotype">
+          Romina
+        </div>
+      </a>
+      <button class="open-menu"  aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>   
+      <ul class="menu">
+        <button class="close-menu" aria-label="Cerrar menú">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="responsive-logo">
+          <img class="logo-container" height="60"width="60"
+          src="img/Mi proyecto.png" alt="programador"/>
+        </div>
+        <li class="inicio"><a href="#home" >Inicio</a></li>
+        <li class="sobremi"><a href="#experience" >Sobre mi</a></li>
+        <li class="habilidades"><a href="#skills" >Habilidades</a></li>
+        <li class="portfolio"><a href="#portfolio" >Portfolio</a></li>
+        <li class="contacto"><a href="#contact" >Contacto</a></li>
+        <div class="iconos-responsive">
+          <a href="https://www.linkedin.com/in/romina-almirón-828a261a7" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Romina-Almiron" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <!-- SECCIÓN INICIO-->
+  <section aria-label="Introducción" id="home"  class="home">
+    <div class="container-home">
+      <div class="container-hero">
+        <img src="./img/Mi proyecto.png" alt="desarrollo web">
+      </div>
+      <div class="presentation">
+        <h1 class="fade-in">ROMINA ALMIRÓN</h1>
+        <h2 class="texto-escritura" id="texto-escritura"></h2>
+        <div class="redes">
+          <div class="redes-red">
+            <a href="https://www.linkedin.com/in/romina-almirón-828a261a7" target="_blank">Linkedin</a>
+          </div>
+          <div class="redes-red">
+            <a href="https://github.com/Romina-Almiron" target="_blank">Github</a>
+          </div>
+          <div class="redes-red">
+            <a href="#" target="_blank">CV</a>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCIÓN SOBRE MI-->
+  <section class="profile" id="experience">
+    <img src="img/wave (3).svg" alt="división" class="wave">
+      <div class="profile-info">
+        <h2 class="profile-title">Sobre mí</h2>
+        <p class="profile-details"><span>Soy Romi<span aria-hidden="true" class="hand">👋</span></span>, interesada y comprometida con el desarrollo frontend.
+        <p class="profile-details">He completado un curso de desarrollo web y JavaScript, adquiriendo sólidos conocimientos y habilidades.
+          A través de proyectos prácticos, demostré mi capacidad para crear sitios web atractivos y funcionales.
+        </p>
+        <p class="profile-details"> Mi objetivo es convertirme en una desarrolladora frontend profesional, por lo que continúo aprendiendo y mejorando mis habilidades constantemente.
+          Estoy emocionada por enfrentar nuevos desafíos y aportar mi creatividad y dedicación al desarrollo frontend.
+        </p>
+        <a href="#" target="_blank">
+          <button class="profile-btn">Descargar CV</button>
+        </a>
+      </div>
+    <img src="img/wave (3).svg" alt="división" class="wave_bottom">
+  </section>
+  <!-- SECCIÓN HABILIDADES-->
+  <section class="skills" id="skills">
+    <h2 class="skills-title">Habilidades</h2>
+    <ul class="skills-list">
+      <li class="skills-skill" onmouseover="startRotation(this)" >HTML5</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >CSS3</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >JavaScript</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Bootstrap</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >SASS & SCSS</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Git & GitHub</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Visual Studio Code</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >JSON</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Fetch API</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Accesibilidad web</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >Diseño responsivo</li>
+      <li class="skills-skill" onmouseover="startRotation(this)" >SEO y posicionamiento</li>
+      <li class="skills-skill" onmouseover="startRotation(this)">Español(Nativo)</li>
+      <li class="skills-skill" onmouseover="startRotation(this)">Inglés (Nivel básico)</li>
+      <li class="skills-skill" onmouseover="startRotation(this)">Portugués (Nivel básico)</li>
+    </ul>
+  </section>
+  <!--SECCIÓN PORTFOLIO-->
+  <section class="proyectos" id="portfolio">
+    <img src="img/wave (3).svg" alt="división" class="wave">
+    <div class="profile-info">
+      <h2 class="section-title" id="portfolio-title">Portfolio</h2>
+      <div class="projects-list"><!--SE APLICA DESDE JS--></div>
+    </div>
+    <img src="img/wave (3).svg" alt="división" class="wave_bottom">
+  </section>
+  <!--SECCIÓN CONTACTO-->
+  <section class="contact" id="contact">
+    <div class="contact-section">
+      <h2 class="contact-title">Contacto</h2>
+      <p class="paragraph">Puedes contactarme  en las siguientes plataformas.
+        <span>  ¡Te responderé lo antes posible!</span>
+      </p>
+      <div class="iconos">
+        <a  href="https://www.linkedin.com/in/romina-almirón-828a261a7" target="_blank"  >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a  href="https://api.whatsapp.com/send?phone=598091993879" target="_blank"  >
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a  href="https://github.com/Romina-Almiron" target="_blank" >
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a  href="mailto:rominaalmiron02@gmail.com" target="_blank">
+          <ion-icon name="at-outline"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER-->
+  <footer class="main-footer" aria-label="Pie de página">
+    <div class="main-footer-inner">
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <p class="text-footer">© Copyright-2023-Romina Almirón</p>
+    </div>
+  </footer>
+
+
+  
+
+
+  <!-- IONICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="./JS/menu.js"></script>
+  <script src="./JS/main.js"></script>
+  <script src="./JS/portfolio.js"></script>
+
+  <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

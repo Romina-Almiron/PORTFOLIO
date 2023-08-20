@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+:root{
+    --nav-color:black;
+    --theme-color:black;
+    --primary-color: #23698c;
+    --logo-color: #23698c;
+    --items-color:#3eade4;
+    --items-a-color:#fff;
+    --container-home:black;
+    --title-primary:#3eade4;
+    --title-secundary:#3eade4;
+    --background-redes: #1e2326;
+    --redes-a-1:#3eade4;
+    --redes-a-2:#fff;
+    --icons-a:#3eade4;
+    --text-color-inverse: black;
+    --text-color: #fff;
+    --profile-btn:#3eade4;
+    --skills-skill:#3eade4;
+    --proyect-color:black;
+    --paragraph-color:#3eade4;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color:#061b39 ;
+    --responsive-botton:#23698c;
+  
+}
+
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans';
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+a {
+    text-decoration: none;
+}
+/*TITULOS*/
+.profile-title, .skills-title,
+.section-title, .contact-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+   /* margin: 25px 0;*/
+}
+
+/*SECCIÓN FOOTER*/
+.main-footer{
+    background-image:url("../img/fondo.jpg");
+    background-size: cover;
+    padding: 5px 0 ;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.text-footer{
+    color:var(--text-color);
+    font-weight: 600;
+}
+.up {
+    position: absolute;
+    font-size: 15px;
+    color: #3eade4;
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+}
