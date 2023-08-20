@@ -18,8 +18,8 @@
     {
         "id": "project-portfolio",
         "title": "Portfolio",
-        "repositoryLink": "https://github.com/Romina-Almiron/romi-almiron-portfolio.git",
-        "deployLink": "https://romina-almiron.github.io/romi-almiron-portfolio/",
+        "repositoryLink": "https://github.com/Romina-Almiron/PORTFOLIO.git",
+        "deployLink": "https://romina-almiron.github.io/PORTFOLIO/",
         "description": "Portfolio interactivo en HTML, CSS y JavaScript.",
         "skills": ["HTML", "CSS", "JavaScript", "JSON" ]
     }
