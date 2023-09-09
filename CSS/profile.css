@@ -17,12 +17,12 @@
 .wave {
     width: 100%;
     position: relative;
-    margin: 0;
+   margin-top: -2px;
     padding: 0;
 }
 .wave_bottom {
     transform: scaleY(-1);
-    margin: 0;
+    margin-bottom: -2px;
     padding: 0;
 }
 .profile-details {
