@@ -12,15 +12,15 @@
         "title": "Ecommerce-SakuraShop",
         "repositoryLink": "https://github.com/Romina-Almiron/Ecommerce-SakuraShop.git",
         "deployLink": "https://romina-almiron.github.io/Ecommerce-SakuraShop/",
-        "description": "Ecommerce interactivo en HTML, CSS y JavaScript.",
-        "skills": ["HTML", "CSS", "JAVASCRIPT", "FETCH"]
+        "description": "Ecommerce interactivo en HTML, CSS y JavaScript para curso de JavaScript.",
+        "skills": ["HTML", "CSS", "JAVASCRIPT"]
     },
     {
         "id": "project-portfolio",
         "title": "Portfolio",
         "repositoryLink": "https://github.com/Romina-Almiron/PORTFOLIO.git",
         "deployLink": "https://romina-almiron.github.io/PORTFOLIO/",
-        "description": "Portfolio interactivo en HTML, CSS y JavaScript.",
-        "skills": ["HTML", "CSS", "JavaScript", "JSON" ]
+        "description": "Portfolio interactivo en HTML, CSS y JavaScript proyecto personal.",
+        "skills": ["HTML", "CSS", "JavaScript"]
     }
 ]

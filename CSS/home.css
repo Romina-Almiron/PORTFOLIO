@@ -43,7 +43,7 @@
     max-width: 250px;
     display: block;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 50%;
     -webkit-animation:slit-in-vertical .45s ease-out both;
     animation:slit-in-vertical .45s ease-out both;
 }

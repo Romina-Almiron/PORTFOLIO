@@ -11,7 +11,7 @@
     color: var(--skills-skill);
     border-radius: 42px;
     padding: 0.5em 0.7em;
-    margin: 10px;
+    margin: 15px;
     transition: .2s;
     transition: transform 1s ease;
 }
@@ -46,6 +46,10 @@
     }
     .skills-title{
         font-size: 45px;
+    }
+    .skills-idiomas{
+        font-size: 30px;
+        margin:10px
     }
 }
 @media (min-width: 768px) and (max-width: 949px) {
