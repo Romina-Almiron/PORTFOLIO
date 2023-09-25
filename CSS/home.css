@@ -3,20 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     position: relative;
-}
-.home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Cambia el color y la opacidad según tus necesidades */
 }
 .container-home {
     max-width: 350px;
@@ -33,6 +23,9 @@
     padding: 20px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgb(232, 222, 222);
+    position: relative;
+    z-index: 99;
+    opacity: .85;
 }
 .container-home .presentation{
     backdrop-filter: none; /* Excluye el efecto del pseudo-elemento */
@@ -43,17 +36,6 @@
     max-width: 250px;
     display: block;
     margin: auto;
-   /* border-radius: 50%;*/
-    -webkit-animation:slit-in-vertical .45s ease-out both;
-    animation:slit-in-vertical .45s ease-out both;
-}
-@-webkit-keyframes slit-in-vertical{0%{-webkit-transform:translateZ(-800px) rotateY(90deg);
-    transform:translateZ(-800px) rotateY(90deg);opacity:0}54%{-webkit-transform:translateZ(-160px) rotateY(87deg);
-    transform:translateZ(-160px) rotateY(87deg);opacity:1}100%{-webkit-transform:translateZ(0) rotateY(0);
-    transform:translateZ(0) rotateY(0)}}@keyframes slit-in-vertical{0%{-webkit-transform:translateZ(-800px) rotateY(90deg);
-    transform:translateZ(-800px) rotateY(90deg);opacity:0}54%{-webkit-transform:translateZ(-160px) rotateY(87deg);
-    transform:translateZ(-160px) rotateY(87deg);opacity:1}100%{-webkit-transform:translateZ(0) rotateY(0);
-    transform:translateZ(0) rotateY(0)}
 }
 .container-home h1{
     font-size: 25px;
