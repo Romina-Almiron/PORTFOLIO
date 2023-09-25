@@ -43,7 +43,7 @@
     max-width: 250px;
     display: block;
     margin: auto;
-    border-radius: 50%;
+   /* border-radius: 50%;*/
     -webkit-animation:slit-in-vertical .45s ease-out both;
     animation:slit-in-vertical .45s ease-out both;
 }
@@ -90,7 +90,6 @@
     font-size: 14px;
     font-weight: 600;
     background-color: var(--background-redes);
-    box-shadow: 0 4px 10px rgb(232, 222, 222);
     border-radius: 42px;
     border: 2px solid  #fff;
     padding: 0.5em 0.7em;
@@ -99,7 +98,6 @@
     transition: .3s;
 }
 .redes-red:hover{
-    border: 2px solid #fff;
     transform: scale(1.1) translateY(-4px);
 }
 .redes-red a{
@@ -116,7 +114,8 @@
         max-width: 980px;
         margin: 0 auto;
         align-items:center;
-        padding: 20px; 
+       padding-block: 0;
+       
     }
     .container-hero img{
         width: 100%;

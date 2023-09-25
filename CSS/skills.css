@@ -7,9 +7,9 @@
     font-size: 14px;
     font-weight: 500;
     background-color: #1e2326;
-    box-shadow: 0 4px 10px rgb(232, 222, 222);
     color: var(--skills-skill);
     border-radius: 42px;
+    border: 2px solid  #fff;
     padding: 0.5em 0.7em;
     margin: 15px;
     transition: .2s;
@@ -22,17 +22,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
-}
-.rotating {
-    animation: giro 1.2s linear; 
-}
-@keyframes giro {
-    0% {
-      transform: rotateY(0deg);
-    }
-    100% {
-      transform: rotateY(360deg);
-    }
 }
 .skills-skill:hover{
     color: var(--text-color);

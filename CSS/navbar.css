@@ -22,9 +22,6 @@
     font-weight: 500;
     color: var(--logo-color);
 }
-.logo img {
-    border-radius: 50%;
-}
 /* Menu */
 .menu {
     display: flex;

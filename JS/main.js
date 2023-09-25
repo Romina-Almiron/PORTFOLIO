@@ -26,14 +26,3 @@ function escribirTexto() {
 }
 // Inicia la función para comenzar la escritura automática
 escribirTexto();
-
-/* MOVIMIENTOS DE HABILIDADES*/
-let currentRotationElement = null; // Elemento que está actualmente en rotación
-
-function startRotation(element) {
-  if (currentRotationElement !== null) {
-    currentRotationElement.classList.remove('rotating'); // Detiene la rotación del elemento anterior
-  }
-  currentRotationElement = element;
-  element.classList.add('rotating'); // Inicia la rotación en el elemento actual
-}

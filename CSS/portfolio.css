@@ -58,9 +58,9 @@
     font-size: 15px;
     font-weight: 500;
     background-color: #1e2326;
-    box-shadow: 0 4px 10px rgb(232, 222, 222);
     color: var(--skills-skill);
     border-radius: 42px;
+    border:2px solid #fff;
     padding: 0.5em 0.7em;
     margin: 1px;
 }

@@ -40,7 +40,6 @@
     align-items: center;
     justify-content: center;
     background-color: #1e2326;
-    box-shadow: 0 4px 10px rgb(232, 222, 222);
     color: var(--icons-a);
     border: 2px solid #fff;
     border-radius: 50%; 
