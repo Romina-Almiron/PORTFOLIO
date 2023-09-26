@@ -8,9 +8,10 @@
     height: 100vh;
     position: relative;
 }
+
 .container-home {
     max-width: 350px;
-    margin: auto;
+    /*margin: auto;*/
     margin: -20px auto;
     text-align: center;
     border: 2px solid black;
@@ -21,6 +22,7 @@
     align-items: center;
     background: var(--container-home);
     padding: 20px;
+    bottom:45px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgb(232, 222, 222);
     position: relative;
@@ -32,7 +34,7 @@
     z-index: 1;
 }
 .container-hero img {
-    width: 80%;
+    width: 90%;
     max-width: 250px;
     display: block;
     margin: auto;

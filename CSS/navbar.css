@@ -130,9 +130,6 @@
     .topnav {
         justify-content: right;
     }
-    .topheader {
-       background-color: transparent;
-    }
     .menu {
         flex-direction: column;
         position: fixed;
@@ -165,16 +162,19 @@
     .close-menu{
         display: block;
         border: none;
-        background-color: transparent;
-       color: var(--responsive-botton);
+        background-color: var(--primary-color);
+        color: var(--responsive-botton);
         text-decoration: none;
         outline: none;
-        font-size: 18px;
-
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 30%;
     }
     .close-menu{
         align-self: flex-end;
-        padding: 30px 20px;
+       /* padding: 30px 20px;*/
+       margin-right: 10px;
+       margin-top:10px;
         outline: none;
     }
     .menu_opened {
