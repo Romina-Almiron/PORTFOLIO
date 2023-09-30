@@ -54,6 +54,11 @@ a {
     position: fixed;
     z-index: -1;
 }
+/*secciones*/
+.home, .profile,
+.skills, .proyectos{
+    scroll-margin-top: 100px;
+}
 /*SECCIÓN FOOTER*/
 .main-footer{
    

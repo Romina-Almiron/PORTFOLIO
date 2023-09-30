@@ -8,12 +8,18 @@
 }
 .topnav {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 10px;
     max-width: 980px;
     margin: 0 auto;
+    align-items: center;
+    /*padding: 15px 20px;*/
 }
-/* --LOGO-- 
+/*--LOGO-- */
+img{
+    max-width: 70px;
+}
+/*
 .logo {
     display: flex;
     align-items: center;
@@ -127,9 +133,14 @@
         outline: none;
         cursor: none;
     }
+    /*
     .topnav {
-        justify-content: right;
-        padding:15px;/*se agrego*/
+        justify-content: space-between;
+       /* padding:15px;/*se agrego
+    }
+    */
+    .logo-container{
+        max-width: 60px;
     }
     .menu {
         flex-direction: column;
@@ -169,14 +180,15 @@
         text-decoration: none;
         outline: none;
         font-size: 15px;
-        padding: 8px;
-        border-radius: 30%;
+       /* padding: 8px;*/
+       padding: 5px 10px;
+       border-radius: 20%;
     }
     .close-menu{
         align-self: flex-end;
        /* padding: 30px 20px;*/
        margin-right: 10px;
-       margin-top:10px;
+       margin-top:25px;
         outline: none;
     }
     .menu_opened {
