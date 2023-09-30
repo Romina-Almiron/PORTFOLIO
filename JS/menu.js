@@ -15,13 +15,13 @@ function hideMenu() {
 }
 openMenuBtn.addEventListener("touchstart", toggleMenu);
 /*openMenuBtn.addEventListener("click", toggleMenu);*/
-/*closeMenuBtn.addEventListener("click", toggleMenu);
+/*closeMenuBtn.addEventListener("click", toggleMenu);*/
 
 // Agregar un escuchador de evento a cada elemento del menú
 menuItems.forEach(item => {
   // Oculta el menú cuando se hace clic en una opción
   item.addEventListener("touchstart", hideMenu);
-});*/
+});
 /*
 // Seleccionar el menú y el botón de abrir
 const menu = document.querySelector(".menu");
