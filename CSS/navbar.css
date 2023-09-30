@@ -13,7 +13,6 @@
     max-width: 980px;
     margin: 0 auto;
     align-items: center;
-    /*padding: 15px 20px;*/
 }
 /*--LOGO-- */
 img{
@@ -133,12 +132,9 @@ img{
         outline: none;
         cursor: none;
     }
-    /*
     .topnav {
-        justify-content: space-between;
-       /* padding:15px;/*se agrego
+        padding: 15px 20px;
     }
-    */
     .logo-container{
         max-width: 60px;
     }
