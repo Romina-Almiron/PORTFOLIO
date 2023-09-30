@@ -129,6 +129,7 @@
     }
     .topnav {
         justify-content: right;
+        padding:15px;/*se agrego*/
     }
     .menu {
         flex-direction: column;
@@ -145,6 +146,7 @@
         pointer-events: none;
         text-decoration: none;
         transition: opacity 0.3s;
+        padding: 5px;/*se agrego*/
     }
     .menu li {
        padding: 0;

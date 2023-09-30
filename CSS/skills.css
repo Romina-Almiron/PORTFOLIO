@@ -2,6 +2,7 @@
 .skills {
     max-width: 980px;
     margin: 0 auto;
+    scroll-margin-top: 100px;
 }
 .skills-skill {
     font-size: 14px;
