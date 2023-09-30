@@ -18,15 +18,6 @@
 img{
     max-width: 70px;
 }
-/*
-.logo {
-    display: flex;
-    align-items: center;
-    font-family: 'Righteous';
-    font-size: 36px;
-    font-weight: 500;
-    color: var(--logo-color);
-}*/
 /* Menu */
 .menu {
     display: flex;
@@ -176,9 +167,8 @@ img{
         text-decoration: none;
         outline: none;
         font-size: 15px;
-       /* padding: 8px;*/
-       padding: 5px 10px;
-       border-radius: 20%;
+        padding: 5px 10px;
+        border-radius: 20%;
     }
     .close-menu{
         align-self: flex-end;
