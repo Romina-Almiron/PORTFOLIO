@@ -148,7 +148,7 @@ img{
         align-items: center;
        /* background-color: var(--menu-mobile-background-color);*/
        background-color: black;
-        height: 80%; /* Ajusta la altura según el contenido */
+        height: 90%; /* Ajusta la altura según el contenido */
         overflow-y: auto;
         opacity: 0;
         pointer-events: none;
