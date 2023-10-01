@@ -55,13 +55,16 @@ a {
     z-index: -1;
 }
 /*secciones*/
-.home, .profile,
-.skills, .proyectos{
-    scroll-margin-top: 100px;
+.home, .skills{
+    scroll-margin-top: 150px;
+}
+@media (max-width: 950px){
+    .profile, .proyectos{
+        scroll-margin-top: 95px;
+    }
 }
 /*SECCIÓN FOOTER*/
 .main-footer{
-   
     background-color: var(--theme-color);
     padding: 5px 0 ;
     text-align: center;
