@@ -16,7 +16,7 @@
 }
 /*--LOGO-- */
 img{
-    max-width: 70px;
+    max-width: 85px;
 }
 /* Menu */
 .menu {
@@ -95,7 +95,7 @@ img{
     transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}
 }
 .open-menu,
-.close-menu,
+/*.close-menu,*/
 .responsive-logo,
 .iconos-responsive {
   display: none;
@@ -107,12 +107,8 @@ img{
 /* Sección responsiva*/
 
 @media (max-width: 950px){
-    .responsive-logo,
     .iconos-responsive{
      display: block;
-    }
-    .responsive-logo img{
-        border-radius: 50%;
     }
     .iconos-responsive a{
         display: inline-block;
@@ -123,19 +119,50 @@ img{
         outline: none;
         cursor: none;
     }
+    /*
+    .topheader {
+       height: 50px;
+       padding: 5px 0;
+    }*/
+    .topnav {
+        display: flex;
+       /* justify-content: center;
+        align-items: center;*/
+        padding: 10px;
+    }
+    /*
     .topnav {
         padding: 15px 20px;
-    }
+    }*/
+    /*
     .logo-container{
-        max-width: 60px;
+        max-height: 45px;
+    }*/
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        bottom: 0; /* Cambia de 'top' a 'bottom' */
+        left: 0;
+        width: 60%; /* Cambia el ancho del menú a 100% */
+        max-width: 60vw; /* Limita el ancho al 100% del viewport */
+        align-items: center;
+       /* background-color: var(--menu-mobile-background-color);*/
+       background-color: black;
+        height: 80%; /* Ajusta la altura según el contenido */
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        padding: 5px;
     }
+    /*
     .menu {
         flex-direction: column;
         position: fixed;
         left: 0;
         top: 0;
-        width: 60%; /* Cambia el ancho del menú a la mitad de la pantalla */
-        max-width: 60vw; /* Limita el ancho a la mitad del viewport */
+        width: 60%; /* Cambia el ancho del menú a la mitad de la pantalla 
+        max-width: 60vw; /* Limita el ancho a la mitad del viewport 
         align-items: center;
         background-color: var(--menu-mobile-background-color );
         height: 100%;
@@ -144,20 +171,35 @@ img{
         pointer-events: none;
         text-decoration: none;
         transition: opacity 0.3s;
-        padding: 5px;/*se agrego*/
-    }
+        padding: 5px;/*se agrego
+    }*/
     .menu li {
-       padding: 0;
+       padding: 5px;
     }
     .menu a {
         color: var(--items-a-color);
-        line-height: 60px;
+        /*line-height: 60px;*/
         outline: none;
         font-size: 18px;
     }
     .menu a::after{
         content: none;
     }
+    .open-menu{
+        display: block;
+        border: 1px solid #1e2326;
+        background: linear-gradient(to right, #285ab0, #49a09d);
+        color: var(--responsive-botton);
+        text-decoration: none;
+        outline: none;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 25%;
+        position: fixed;
+        bottom: 40px; /* Ajusta la posición desde la parte inferior */
+        right: 10px; /* Ajusta la posición desde la derecha */
+    }
+    /*
     .open-menu,
     .close-menu{
         display: block;
@@ -169,14 +211,15 @@ img{
         font-size: 15px;
         padding: 5px 10px;
         border-radius: 20%;
-    }
+    }*/
+    /*
     .close-menu{
         align-self: flex-end;
-       /* padding: 30px 20px;*/
+       /* padding: 30px 20px;
        margin-right: 10px;
        margin-top:25px;
         outline: none;
-    }
+    }*/
     .menu_opened {
         opacity: 1;
         pointer-events: all;
