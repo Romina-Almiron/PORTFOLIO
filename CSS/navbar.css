@@ -144,16 +144,17 @@ img{
         bottom: 0; /* Cambia de 'top' a 'bottom' */
         left: 0;
         width: 60%; /* Cambia el ancho del menú a 100% */
-        max-width: 60vw; /* Limita el ancho al 100% del viewport */
+        /*max-width: 60vw; /* Limita el ancho al 100% del viewport */
         align-items: center;
        /* background-color: var(--menu-mobile-background-color);*/
-       background-color: black;
-        height: 90%; /* Ajusta la altura según el contenido */
+        background: linear-gradient(to right, #285ab0, #49a09d);
+        height: 100%; /* Ajusta la altura según el contenido */
         overflow-y: auto;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s;
         padding: 5px;
+        justify-content: space-evenly;
     }
     /*
     .menu {
